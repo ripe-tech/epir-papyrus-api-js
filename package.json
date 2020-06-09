@@ -46,7 +46,7 @@
         "test": "mocha --recursive",
         "upgrade": "npx sort-package-json && ncu -u",
         "watch": "rollup -c -w"
-    }, 
+    },
     "dependencies": {
         "yonius": "^0.4.2"
     },

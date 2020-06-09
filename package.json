@@ -51,7 +51,7 @@
         "yonius": "^0.4.2"
     },
     "devDependencies": {
-        "@babel/papyrus": "^7.10.2",
+        "@babel/core": "^7.10.2",
         "@babel/preset-env": "^7.10.2",
         "@rollup/plugin-babel": "^5.0.2",
         "@rollup/plugin-commonjs": "^12.0.0",

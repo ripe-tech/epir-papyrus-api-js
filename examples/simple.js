@@ -7,7 +7,7 @@ async function run() {
     await epirPapyrus.API.load();
     const api = new epirPapyrus.API({ baseUrl: baseUrl });
     try {
-        console.info(await api.getReport("hermes-silk", mockOrder));
+        console.info(await api.getReport("hermes-leather", mockOrder));
     } catch (err) {
         console.error(`[ERROR] ${err.code || ""} ${err.message}`);
     }

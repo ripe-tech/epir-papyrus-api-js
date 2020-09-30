@@ -3,8 +3,7 @@ export const ReportAPI = superclass =>
         async getReport(name, order) {
             const url = this.baseUrl + `reports/${name}`;
             const options = { body: order };
-            const contents = await this.post(url, options);
-            const reportHtml = await contents.text();
+            const reportHtml = await this.post(url, options);
             return reportHtml;
         }
     };

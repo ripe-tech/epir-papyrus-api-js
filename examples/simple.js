@@ -1,7 +1,7 @@
 const epirPapyrus = require("..");
-const mockOrder = require("../mocks/hermes/bastia.json");
+const mockOrder = require("./mocks/hermes/bastia.json");
 
-const baseUrl = "http://localhost:3000/";
+const baseUrl = "https://epir-papyrus-now.platforme.com/";
 
 async function run() {
     await epirPapyrus.API.load();

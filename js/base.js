@@ -1,9 +1,9 @@
 import { API as BaseAPI, mix, load, conf } from "yonius";
-import { OrderAPI } from "./order";
+import { ReportAPI } from "./report";
 
 const EPIR_PAPYRUS_BASE_URL = "https://epir-papyrus.platforme.com/api/v1/";
 
-export class API extends mix(BaseAPI).with(OrderAPI) {
+export class API extends mix(BaseAPI).with(ReportAPI) {
     constructor(kwargs = {}) {
         super(kwargs);
         this.baseUrl = conf("EPIR_PAPYRUS_BASE_URL", EPIR_PAPYRUS_BASE_URL);

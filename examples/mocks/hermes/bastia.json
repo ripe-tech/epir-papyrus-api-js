@@ -1,0 +1,163 @@
+{
+    "_id": "5e53b7ac41fd2e182813b8f2",
+    "id": 7231,
+    "number": 7231,
+    "enabled": true,
+    "description": null,
+    "created": 1582544812,
+    "modified": 1582544812,
+    "meta": {},
+    "brand_t": "hermes",
+    "retailer_t": null,
+    "vendor_t": null,
+    "key": "01ed71da69c2de2842464c104796b4c2066e6d8d",
+    "status": "created",
+    "status_index": 1,
+    "production_status": "unset",
+    "production": "produce",
+    "gender": "male",
+    "currency": null,
+    "country": null,
+    "price": null,
+    "prices": null,
+    "brand": "hermes",
+    "shoe": "bastia",
+    "variant": null,
+    "shoe_query": "model=bastia&brand=hermes&p=exterior:veau_swift_hrm:vert_vertigo&p=lining:chevre_pigmentee_hrm:gold&p=shadow:default:default",
+    "shoe_url": "/config/customization?model=bastia&brand=hermes&p=exterior:veau_swift_hrm:vert_vertigo&p=lining:chevre_pigmentee_hrm:gold&p=shadow:default:default",
+    "image_url": "/compose?model=bastia&brand=hermes&p=exterior:veau_swift_hrm:vert_vertigo&p=lining:chevre_pigmentee_hrm:gold&p=shadow:default:default",
+    "minify_hash": "NDYzOA",
+    "image_hash": "NDYzOQ",
+    "image_o_hash": "NDY0MA",
+    "top_hash": "NDY0MQ",
+    "top_o_hash": "NDY0Mg",
+    "bottom_hash": "NDY0Mw",
+    "bottom_o_hash": "NDY0NA",
+    "back_hash": "NDY0NQ",
+    "side_hash": "NDY0Ng",
+    "structure": "{\"brand\": \"hermes\", \"model\": \"bastia\", \"variant\": null, \"parts\": [{\"material\": \"veau_swift_hrm\", \"color\": \"vert_vertigo\", \"name\": \"exterior\", \"hidden\": false, \"optional\": false}, {\"material\": \"chevre_pigmentee_hrm\", \"color\": \"gold\", \"name\": \"lining\", \"hidden\": false, \"optional\": false}, {\"material\": \"default\", \"color\": \"default\", \"name\": \"shadow\", \"hidden\": true, \"optional\": false}], \"parts_m\": {\"exterior\": {\"material\": \"veau_swift_hrm\", \"color\": \"vert_vertigo\"}, \"lining\": {\"material\": \"chevre_pigmentee_hrm\", \"color\": \"gold\"}, \"shadow\": {\"material\": \"default\", \"color\": \"default\"}}, \"gender\": \"male\", \"size\": 17, \"query\": \"model=bastia&brand=hermes&p=exterior:veau_swift_hrm:vert_vertigo&p=lining:chevre_pigmentee_hrm:gold&p=shadow:default:default\", \"url\": \"/config/customization?model=bastia&brand=hermes&p=exterior:veau_swift_hrm:vert_vertigo&p=lining:chevre_pigmentee_hrm:gold&p=shadow:default:default\", \"image\": \"/compose?model=bastia&brand=hermes&p=exterior:veau_swift_hrm:vert_vertigo&p=lining:chevre_pigmentee_hrm:gold&p=shadow:default:default\", \"extras\": 0, \"initials_extra\": {\"main\": {\"initials\": \"30GV9\", \"engraving\": \"font:akkurat.font_size:medium.style:silver.position:interior.akkurat:medium:silver\"}}, \"initials\": \"30GV9\", \"engraving\": \"font:akkurat.font_size:medium.style:silver.position:interior.akkurat:medium:silver\"}",
+    "ff_id": null,
+    "ff_shoe_id": null,
+    "ff_order_id": "order_test_471",
+    "delivery_time": null,
+    "tracking_number": null,
+    "tracking_url": null,
+    "notes": [],
+    "states": [
+        {
+            "_id": "5e53b7ac41fd2e182813b8f8",
+            "id": 7239,
+            "enabled": true,
+            "description": null,
+            "created": 1582544812,
+            "modified": 1582544812,
+            "meta": {},
+            "brand_t": null,
+            "retailer_t": null,
+            "vendor_t": null,
+            "name": "created",
+            "justification": "Order import",
+            "timestamp": 1582544812,
+            "email": "hermes@platforme.com",
+            "account": {
+                "_id": "5d302ed6d47bd0c0e70c9164",
+                "id": 11,
+                "enabled": true,
+                "description": "",
+                "created": 1563438806,
+                "modified": 1595599946,
+                "meta": {
+                    "brand_t": ["hermes", "hermes_tech"]
+                },
+                "username": "hermes",
+                "email": "hermes@platforme.com",
+                "facebook_id": "",
+                "github_login": "",
+                "google_id": "",
+                "live_id": "",
+                "twitter_username": "",
+                "type": 1,
+                "last_login": 1595599946,
+                "roles": [],
+                "avatar_url": "https://ripe-core-stage.platforme.com/admin/accounts/hermes/avatar"
+            }
+        }
+    ],
+    "attachments": [],
+    "account": "hermes@platforme.com",
+    "customer": null,
+    "ambassador": null,
+    "store": null,
+    "number_s": "#007231",
+    "channel": "digital",
+    "delivery_d": 1584964012.0,
+    "scale": "one_size",
+    "size_scaled": 17.0,
+    "details": {
+        "brand": "hermes",
+        "model": "bastia",
+        "variant": null,
+        "parts": [
+            {
+                "material": "veau_swift_hrm",
+                "color": "vert_vertigo",
+                "name": "exterior",
+                "hidden": false,
+                "optional": false
+            },
+            {
+                "material": "chevre_pigmentee_hrm",
+                "color": "gold",
+                "name": "lining",
+                "hidden": false,
+                "optional": false
+            },
+            {
+                "material": "default",
+                "color": "default",
+                "name": "shadow",
+                "hidden": true,
+                "optional": false
+            }
+        ],
+        "parts_m": {
+            "exterior": {
+                "material": "veau_swift_hrm",
+                "color": "vert_vertigo"
+            },
+            "lining": {
+                "material": "chevre_pigmentee_hrm",
+                "color": "gold"
+            },
+            "shadow": {
+                "material": "default",
+                "color": "default"
+            }
+        },
+        "gender": "male",
+        "size": 17,
+        "query": "model=bastia&brand=hermes&p=exterior:veau_swift_hrm:vert_vertigo&p=lining:chevre_pigmentee_hrm:gold&p=shadow:default:default",
+        "url": "/config/customization?model=bastia&brand=hermes&p=exterior:veau_swift_hrm:vert_vertigo&p=lining:chevre_pigmentee_hrm:gold&p=shadow:default:default",
+        "image": "/compose?model=bastia&brand=hermes&p=exterior:veau_swift_hrm:vert_vertigo&p=lining:chevre_pigmentee_hrm:gold&p=shadow:default:default",
+        "extras": 0,
+        "initials_extra": {
+            "main": {
+                "initials": "30GV9",
+                "engraving": "font:akkurat.font_size:medium.style:silver.position:interior.akkurat:medium:silver"
+            }
+        },
+        "initials": "30GV9",
+        "engraving": "font:akkurat.font_size:medium.style:silver.position:interior.akkurat:medium:silver"
+    },
+    "enriched": {
+        "expedition_date": "01/03/2020",
+        "expected_release_date": "15/03/2020",
+        "extra_parts": [
+            {
+                "name": "Bouton pression nº2 (4p.)",
+                "color": "CK - Palladium"
+            }
+        ],
+        "qr_code": "51 48 71 86 57 013 65 107 107 117 114 97 116 013 77 77 013 65 114 103 101 110 116 013 77 49 013"
+    }
+}

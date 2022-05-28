@@ -1,21 +1,12 @@
 dist: trusty
 language: node_js
 node_js:
-  - "10"
-  - "11"
   - "12"
   - "13"
   - "14"
+  - "15"
+  - "16"
+  - "17"
 install:
   - npm install
 script: npm run lint && npm run build && npm test
-before_deploy: npm run build
-deploy:
-  provider: npm
-  email: development@platforme.com
-  skip_cleanup: true
-  api_key:
-    secure: cz3W2ftQIYIyBVsqbi8YaSMzb2RZdwnP86nAbLOdszxaxga1td/L0+aRr2YodYRtJP/FDjD5ilKPJbzVvOYw7zCQQ84EwnZOIBVYWSvorW/J2koccwoe5ygoWvrmccMpUDI65675IrU+ktzBuCsYixqS5SulqU3F6Quhs+LK/DmQ9MK4xgKi4g2SC3+l5YCOv/hXym/GpZekFG+E96TmjZ1l3yLpqvC8Y9D+HRebBkHyWOvgnoKB94Zm4KLvWZJb2QL0qjTM0FezIXBYHjYl+4sgAQOzO1POgg2JYe2Pv4n7gtXyETVkeDYAdHUOmgSNUmZFLFAeAjgBVSXNbX3sRDyYBicsxh3WOl84kp1yvCOSK1W4yZkAq+EO3xFMMhAau6J4aLC+QebddIBjlROusGR6HeR0KRFo4QR0YM825Dc1aKHb5T/Ov0PZIGrMQeMxSGYsVVy0fU3gLYUopY77WnBujOpj0k4l3xfwywGrlMl32OA5wMagLTjLkiYWo4t6ZwbhmIr8MZz+xfsKf0Y3ZUuGxqDpyWnMaOjWTyyfdSdV3B2dXk3GPH5qqXmPCYqKMuIjmL24ZY16h5Rq0ltfDXKr1Lhi8BmmDXmG6SI4Nsi3ZiZbT7ULglqtuSszPF1zDIZJiGidSv9oFCVWJr027HvIJC63fWZOCixdJI6XcXo=
-  on:
-    tags: true
-    node_js: "10"

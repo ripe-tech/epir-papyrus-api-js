@@ -1,12 +1,15 @@
-name: Main Workflow
-on: [push]
+name: Deploy Workflow
+on:
+  push:
+    tags:
+      - "*"
 jobs:
   build:
-    name: Build
+    name: Deploy
     timeout-minutes: 10
     strategy:
       matrix:
-        node-version: [12, 13, 14, 16, 17, 18]
+        node-version: [12]
     runs-on: ubuntu-latest
     container: node:${{ matrix.node-version }}
     steps:
@@ -17,3 +20,8 @@ jobs:
       - run: npm run build
       - run: npm run lint
       - run: npm test
+      - run: |
+          echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
+          npm publish
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
